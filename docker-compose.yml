@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  go:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: go-renovate-test
+    container_name: go-renovate-test
+    working_dir: /go/src
+    volumes:
+      - .:/go/src/
