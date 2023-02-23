@@ -4,9 +4,7 @@
   "regexManagers": [
     {
       "fileMatch": ["^Dockerfile$", "^Makefile$"],
-      "matchStrings": [
-        "go install (?<depName>[^@]+?)@(?<currentValue>[0-9.-a-zA-Z]+?)"
-      ],
+      "matchStrings": ["go install (?<depName>[^@]+?)@(?<currentValue>.+)\n"],
       "datasourceTemplate": "go"
     },
     {
