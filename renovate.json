@@ -9,7 +9,7 @@
     },
     {
       "fileMatch": ["^Dockerfile$"],
-      "matchStrings": ["ENV GOLANGCI_LINT_VERSION (?<currentValue>.*?)\\n"],
+      "matchStrings": ["ENV GOLANGCI_LINT_VERSION (?<currentValue>.*?)\n"],
       "depNameTemplate": "github.com/golangci/golangci-lint",
       "datasourceTemplate": "go"
     }
