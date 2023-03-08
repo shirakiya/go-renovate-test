@@ -1,7 +1,7 @@
 FROM golang:1.20.1
 
 # Go modules via `go install`
-RUN go install github.com/99designs/gqlgen@v0.17.23
+RUN go install github.com/99designs/gqlgen@v0.17.26
 
 # golangci-lint via binary installation
 ENV GOLANGCI_LINT_VERSION v1.51.1
