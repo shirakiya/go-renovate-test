@@ -1,4 +1,4 @@
-FROM golang:1.20.2
+FROM golang:1.20.3
 
 # Go modules via `go install`
 RUN go install github.com/99designs/gqlgen@v0.17.23
