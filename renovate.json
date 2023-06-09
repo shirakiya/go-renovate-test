@@ -13,5 +13,11 @@
       "depNameTemplate": "github.com/golangci/golangci-lint",
       "datasourceTemplate": "go"
     }
-  ]
+  ],
+  "dockerfile": {
+    "enabled": false
+  },
+  "gomod": {
+    "enabled": false
+  }
 }
