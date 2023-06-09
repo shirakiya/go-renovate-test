@@ -16,5 +16,8 @@
   ],
   "dockerfile": {
     "enabled": false
+  },
+  "gomod": {
+    "enabled": false
   }
 }
